@@ -19,11 +19,13 @@ body {
 html {
   height: 100%;
   min-height: 100%;
+  width: 100%;
+  min-width: 100%;
 }
 
 /* Custom background for landing page */
 .bg-custom {
-  background-image: url('../public/Bg.png');
+  background-image: url('../public/405.png');
   background-size: cover;
   background-position: center;
 }
@@ -34,10 +36,3 @@ html {
   background-position: center;
 }
 
-@media (max-width: 680px) {
-  .bg-error {
-    background-image: url('../public/404\ _Tablet_bg.png');
-    background-size: cover;
-    background-position: center;
-  }
-}

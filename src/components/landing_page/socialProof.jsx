@@ -2,8 +2,8 @@ import React from 'react';
 
 const SocialProof = () => {
   return (
-    <div className='w-full h-[64px] flex items-center justify-center  ml-[78px]'>
-      <div className="flex items-center w-[400px] h-[28px] ">
+    <div className='w-full h-[64px] flex  items-center justify-center '>
+      <div className="flex items-center justify-center w-[400px] h-[28px]  ">
         {/* Circle images with negative margins for overlap */}
         <img 
           src="/person1.jpg" 

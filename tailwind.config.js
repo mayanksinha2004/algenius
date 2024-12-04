@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         sans: ['DM Sans', 'sans-serif'],  // Set DM Sans as the default sans-serif font
       },
+      screens: {
+        'max-sm': {'max': '430px'},
+      },
     },
   },
   plugins: [],

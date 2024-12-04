@@ -6,17 +6,18 @@ import Description from './description';
 import InputWithButton from './input';
 import SocialProof from './socialProof';
 import SocialIcons from './socials';
+import EmptyRow from './emptyrow';
+import InputRow from './inputRow';
 
 const LandingPage = () => {
   return (
     <div className="w-full h-screen bg-custom">
       <Header />
+      <EmptyRow/>
       <ChipRow />
       <Title/>
       <Description/>
-      
-      <InputWithButton/>
-      <SocialProof/>
+      <InputRow/>
       <SocialIcons/>
     </div>
   );

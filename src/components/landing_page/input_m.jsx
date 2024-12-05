@@ -13,7 +13,7 @@ const InputWithButton_M = () => {
       <div className='w-full h-[79px] flex items-center justify-center '>
         <form 
           onSubmit={handleSubmit}
-          className="flex items-center justify-center gap-[24px]  h-[44px] w-[240px] bg-gradient-to-b from-transparent to-[#D387FF33] rounded-[8px] mt-8"
+          className="flex items-center justify-center gap-[24px]  h-[44px] w-[240px] bg-gradient-to-b from-transparent to-[#D387FF33] rounded-[8px] mt-2"
         >
           {/* Email input field */}
           <input

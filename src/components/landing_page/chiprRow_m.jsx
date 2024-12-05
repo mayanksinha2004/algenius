@@ -2,7 +2,7 @@ import React from 'react';
 
 const ChipRow_M = () => {
   return (
-    <div className="w-full h-[48px] flex flex-row justify-center items-center p-0 flex-none order-1 align-self-stretch flex-grow-0  border-t-[1px] border-r-[1px] border-b-[0px] border-l-[1px] border-solid border-[#2B1B38]">
+    <div className="w-full h-[5.49vh] flex flex-row justify-center items-center p-0 flex-none order-1 align-self-stretch flex-grow-0  border-t-[1px] border-r-[1px] border-b-[0px] border-l-[1px] border-solid border-[#2B1B38]">
       <div className="w-[88px] h-[1px] bg-gradient-to-r from-transparent to-[#D387FF] rounded-full" />
 
 {/* Waitlist Text */}

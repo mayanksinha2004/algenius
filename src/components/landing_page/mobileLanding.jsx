@@ -16,9 +16,9 @@ const MobileComponent = () => {
         <Header_M />
       </div>
 
-      {/* Empty Row */}
-      <EmptyRow_M/>
-
+      <div className="w-full pl-[5.97vw] pr-[5.97vw]">
+        <EmptyRow_M/>
+      </div>
       {/* Title */}
       <div className="w-full pl-[5.97vw] pr-[5.97vw]">
         <ChipRow_M/>

@@ -17,6 +17,7 @@ const MobileComponent = () => {
       </div>
 
       {/* Empty Row */}
+      <EmptyRow_M/>
 
       {/* Title */}
       <div className="w-full pl-[5.97vw] pr-[5.97vw]">
